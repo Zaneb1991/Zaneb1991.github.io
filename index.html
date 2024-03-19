@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Zaneb Pace</title>
+        <link rel="stylesheet" type="text/css" href="Stylesheet/Portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <video autoplay muted loop id="Connecting">
+                <source src="./Video/WD.mp4" type="video/mp4">
+                <!--Display message when video fails to load-->
+                Your Browser does not support HTML5 Video.
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Zaneb Pace's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    Welcome to my portfolio.
+                    <br>
+                    <br>My name is Zaneb Pace and here is where you can see more about my background and experiences within Web Developing.
+                    <br>
+                    <br>Thank You for taking an interest, I hope you like what you see and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--About Section-->
+        <div class="Row" id="About">
+            <!--Left Column-->
+            <div class="Column_2">
+                <img src="Images/Web_Development.jpg" alt="Web Development Code">
+            </div>
+            <!--Right Column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    <br>I am always keen to learn new skills. Web Developing has fastly become one of my key interests along with, Drawing, Designing and keeping my memory fresh with complex Puzzles in my spare time.
+                    <br>
+                    <br>I have trained and gained experience in Software Development, HTML, CSS and Bootstrap, Javascript and more, throughout my course with Pitman Training.
+                    <br>
+                    <br>I would love the opportunity to bring your vision to life! <a href="#Contact">Contact</a> Me Below.
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub Section-->
+        <div class="Row" id="GitHub">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Here is where you can find all my projects and how I have advanced within the field:
+                    <br>
+                    <p class="center"><a href="https://github.com/Zaneb1991" target="_blank">Zaneb Pace GitHub</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/Zaneb1991" target="_blank"><img src="./Images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <!--Contact Image, Left Column-->
+            <div class="Column_2 Column_tall">
+                <img src="Images/E-Mail.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact Form, Right Column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies whre and how to send the data-->
+                <form action="https://formspree.io/f/xvoeadkl" method="POST"> <!--Formspree endpoint in action attribute-->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Enter your name">
+                    <label>Email:</label>
+                        <input type="text"  id="Email" name="Email" placeholder="E-Mail Address">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please add your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <p>
+                <p class="center">&copy Beyond The Web, <a href="https://github.com/Zaneb1991" target="_blank">GitHub</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
